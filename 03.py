@@ -12,4 +12,8 @@ if kor <= 25 or gyerek in["igen", "Igen", "i", "I"]:
 else:
     szja = brutto * 0.15
 
-print("SZJA:".ljust(20,"-"), str(int(szja)).rjust(10,"-"),sep="")
+print("SZJA:".ljust(20, "-"), str(int(szja)).rjust(10, "-"), sep="")
+print("Nyugdíj:".ljust(20, "-"), str(int(brutto * 0.1)).rjust(10, "-"), sep="")
+print("Eü:".ljust(20, "-"), str(int(brutto * 0.07)).rjust(10, "-"), sep="")
+print("Munkan:".ljust(20, "-"), str(int(brutto * 0.015)).rjust(10, "-"), sep="")
+print("\nNetto:".ljust(20, "-"), str(int(brutto - (brutto* 0.185) - szja)).rjust(10, "-"), sep="")
