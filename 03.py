@@ -1,4 +1,4 @@
-#Jövedelemszámítás
+#Jövedelemszámítási feladat
 print("Jövedelemszámítás\n")
 kor = int(input("Hány éves vagy?"))
 gyerek = input("Van 3 gyereked és Nő vagy ()igen/nem?")
